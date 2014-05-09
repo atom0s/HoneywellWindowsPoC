@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://rs.alarmnet.com/tc21api/tc2.asmx?wsdl" docRef="https://rs.alarmnet.com/tc21api/tc2.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://rs.alarmnet.com/tc21api/tc2.asmx" xmlns:q1="https://services.alarmnet.com/TC2/" binding="q1:svcTC2APISoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://rs.alarmnet.com/tc21api/tc2.asmx" xmlns:q2="https://services.alarmnet.com/TC2/" binding="q2:svcTC2APISoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
